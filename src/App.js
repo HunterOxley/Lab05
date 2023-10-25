@@ -6,16 +6,16 @@ import Card from "./card";
 
 function App() {
   return (
-    <div className="App bg-dark text white">
-      <Navbar/>
+    <div className="App ">
+     
+      <Navbar />
       <h1>CS 230L</h1>
       <h2>Section - 002</h2>
       <p>WVU ID: 800359452</p>
-      <p>Hi I am Hunter Oxley</p>
+      <p>Hi, I am Hunter Oxley</p>
 
-      <card/>
-      <card/>
-      <card/>
+      <Card />
+      
 
     </div>
   );

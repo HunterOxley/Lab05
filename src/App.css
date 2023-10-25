@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color:  #002855;
+  color: white;
 }
 
 .App-logo {
@@ -44,3 +46,25 @@
 .text-white{
   color:white;
 }
+
+.card-container{
+  display: flex;
+  background-color: #EAAA00;
+
+
+}
+
+
+
+.card{
+
+  background-color: #282c34;
+ 
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  
+ 
+}
+
