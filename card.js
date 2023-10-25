@@ -6,17 +6,21 @@ import Navbar from "./Navbar";
 
 function Card() {
   return (
- 
-    <div class="card">
-  <div class="card-header">
-    Featured
+
+    <div className="card-container">
+    <div className="card">
+      <h3>Card 1</h3>
+      <p>I like the Miami Heat, basketball is cool</p>
+    </div>
+    <div className="card">
+      <h3>Card 2</h3>
+      <p>I think hotdogs work well with fries</p>
+    </div>
+    <div className="card">
+      <h3>Card 3</h3>
+      <p>I dont know what else to put for my 3rd card</p>
+    </div>
   </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
 
   );
 }
