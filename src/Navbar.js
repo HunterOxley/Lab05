@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Outlet, Link} from "react-router-dom";
 
 
-function Navbar() {
+function Navbar(Props) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -13,17 +14,17 @@ function Navbar() {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <Link class="nav-link" to="/#">Home <span class="sr-only">(current)</span></Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <Link class="nav-link" to="/card">Card</Link>
+          {Props.card}
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <Link class="nav-link" to="/contact">Contact</Link>
+          {Props.contact}
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+       
       </ul>
     </div>
   </nav>
