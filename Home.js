@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+//Home card
 function Home(Props) {
   return (
    <div>
