@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-
+//Navbar
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
