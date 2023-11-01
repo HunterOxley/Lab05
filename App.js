@@ -7,7 +7,7 @@ import Home from "./Home";
 import Contact from "./Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-
+//Browser routes
 function App() {
   const myStyle = {
     textAlign: "center",
