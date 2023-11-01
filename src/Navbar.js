@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Outlet, Link} from "react-router-dom";
 
-
+//Nav bar
 function Navbar(Props) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
