@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from "./Navbar";
 
 
-function Card() {
+const Card = () => {
   return (
 
     <div className="card-container">
